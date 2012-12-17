@@ -1,0 +1,39 @@
+/*--------------------------------------------------
+				TWITTER
+---------------------------------------------------*/
+.tweets ul, #footer .tweets ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.tweets li, #footer .tweets li {
+	margin-bottom: 30px;
+	word-wrap: break-word;
+}
+.tweet_even:last-child, .tweet_odd:last-child {
+	margin-bottom: 0;
+}
+.tweets ul span, #footer .tweets ul span {
+}
+.tweets .tweet_text, #footer .tweets .tweet_text{
+	list-style-type: none;
+	display: block;
+}
+.tweets .tweet_text a, #footer .tweets .tweet_text a {
+	display: inline;
+}
+.tweets .tweet_time {
+	display: block;
+	margin-top: 5px;
+}
+.tweets .tweet_time a, #footer .tweets .tweet_time a {
+	font: normal 11px/20px Helvetica,Arial,sans-serif;
+	font-style: normal;
+	padding: 5px 0;
+}
+#footer .tweets .tweet_time a {
+	color: #999;
+	font-style: italic;
+}
+.tweets a:hover , #footer .tweets a:hover, .tweets .tweet_time a:hover, #footer .tweets .tweet_time a:hover {
+}
