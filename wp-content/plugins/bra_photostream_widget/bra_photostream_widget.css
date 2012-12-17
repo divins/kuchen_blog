@@ -1,0 +1,41 @@
+/*--------------------------------------------------
+			PHOTOSTREAM
+---------------------------------------------------*/
+.photostream-wrapper, #footer .photostream-wrapper {
+	float: left;
+}
+.photostream ul, #footer .photostream ul, .widget .photostream ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-left: -10px;
+}
+.photostream ul li, #footer .photostream ul li, .widget .photostream ul li {
+	width: auto;
+	float: left;
+	margin: 0 0 10px 10px;
+}
+.photostream a, #footer .photostream a, .photostream img, #footer .photostream img {
+	height: 40px;
+	width: 40px;
+}
+.photostream a, #footer .photostream a {
+	border: 1px solid #eee;
+	padding: 4px;
+	display: block;
+}
+#footer .photostream a {
+	border: 1px solid #555;
+}
+#footer .photostream a {
+}
+.photostream a:hover, #footer .photostream a:hover {
+}
+.photostream img, #footer .photostream img {
+	opacity:0.7;
+	filter:alpha(opacity=70);
+}
+.photostream a:hover img, #footer .photostream a:hover img {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
